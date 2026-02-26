@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const crudRoutes = require("./routes/crudRoutes");
+const crudRoutes = require("./routes/crud.routes");
 const dotenv = require("dotenv");
 const connectDB = require("./config/db");
 
