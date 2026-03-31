@@ -7,5 +7,6 @@ route.get("/", (req, res) => {
 });
 
 route.post("/add", crudController.createUser);
+route.get("/get", crudController.getUser);
 
 module.exports = route;
